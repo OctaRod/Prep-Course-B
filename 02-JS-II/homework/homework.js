@@ -7,7 +7,7 @@
 function devolverString(str) {
     // "Return" la string provista: str
     // Tu código:
-    retun (str);
+    return (str);
   }
   
   function suma(x, y) {
@@ -134,8 +134,17 @@ function devolverString(str) {
     //Si el número es negativo, devolver ---> "Es negativo"
     //Si el número es 0, devuelve false
     // Tu código:
+    if (numero>0){
+      return ("Es positivo")
+    }
+    else if (numero<0){
+      return ("Es negativo")
+    }
+    else if (numero === 0 ){
+      return (false)
+    }
   }
-  
+
   function agregarSimboloExclamacion(str) {
     // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
     // Ejemplo: "hello world" pasaría a ser "hello world!"
